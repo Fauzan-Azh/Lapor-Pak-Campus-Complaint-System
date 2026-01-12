@@ -6,6 +6,18 @@
     <title>@yield('title', 'Lapor Pak! - Campus Complaint System')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+    </style>
 </head>
 <body>
     @auth
@@ -85,7 +97,7 @@
         @yield('content')
     </main>
 
-    <footer class="bg-light py-4 mt-5">
+    <footer class="bg-light py-4 mt-auto">
         <div class="container text-center">
             <p class="text-muted mb-0">&copy; {{ date('Y') }} Lapor Pak! - Campus Complaint System</p>
         </div>

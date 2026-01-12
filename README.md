@@ -376,14 +376,4 @@ php artisan test --coverage
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## 👥 Credits
 
-Dibuat sebagai **Take Home Task** untuk Praktikum Pemrograman Web.
-
-## 📞 Support
-
-Jika ada pertanyaan atau masalah, silakan buat issue di repository ini.
-
----
-
-**Dibuat dengan ❤️ menggunakan Laravel Framework**
